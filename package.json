@@ -1,6 +1,6 @@
 {
   "name": "react-native-offline",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Handy toolbelt to deal with offline mode in React Native applications. Cross-platform, provides a smooth redux integration.",
   "main": "./src/index.js",
   "author": "Raul Gomez Acuña <raulgdeveloper@gmail.com> (https://github.com/rgommezz)",
@@ -11,7 +11,6 @@
     "flow": "flow src",
     "format": "eslint --fix js/**/",
     "prettier": "prettier --single-quote --trailing-comma all --write \"src/**/*.js\"",
-    "test:coverage": "node --harmony node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "precommit": "yarn run lint",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
@@ -69,7 +68,7 @@
     "redux-thunk": "^2.3.0"
   },
   "dependencies": {
-    "@react-native-community/netinfo": "https://github.com/bitlab-code/react-native-netinfo.git#v3.3.1",
+    "@react-native-community/netinfo": "https://github.com/bitlab-code/react-native-netinfo.git#v3.3.2",
     "lodash": "^4.17.11",
     "react-redux": "^6.0.0 || ^7.0.0",
     "redux": "4.x",
